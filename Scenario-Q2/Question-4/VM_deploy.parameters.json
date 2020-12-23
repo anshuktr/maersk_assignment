@@ -1,0 +1,25 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "adminUsername": {
+            "value": "akatare" // TODO: Fill in parameter value
+        },
+        "adminPassword": {
+            "value": "" // TODO: Fill in parameter value
+        },
+        "OSVersion":{
+                "value": "2016-Datacenter"
+        },
+        "vmSize": {
+            "value": "Standard_B2ms"
+        },
+        "vmName": {
+            "value": "myfirstVM" 
+        },
+        "publicIpName": {
+            "value": "mypublicIP"
+        }
+
+    }
+}
